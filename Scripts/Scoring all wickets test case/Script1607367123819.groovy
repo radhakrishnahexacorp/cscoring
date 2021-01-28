@@ -16,48 +16,60 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Wicket selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Wicket'), 0)
 
+'Wicket type bowled'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.TextView - Bowled'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView'), 0)
 
+'New batsman selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Select New Batsman'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.CheckBox'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView (1)'), 0)
 
+'Wicket selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Wicket'), 0)
 
+'Wicket type caught'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.TextView - Caught'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView'), 0)
 
+'New Batsman selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Select New Batsman'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.CheckBox'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView'), 0)
 
+'Wicket selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Wicket'), 0)
 
+'Wicket type LBW'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.TextView - LBW'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView'), 0)
 
+'New batsman selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Select New Batsman'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.CheckBox'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView (1)'), 0)
 
+'Wicket selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Wicket'), 0)
 
+'Wicket type Stumped'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.TextView - Stumped'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.ImageView'), 0)
 
+'New batsman selected'
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.Button - Select New Batsman'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Scoring All Wickets/android.widget.CheckBox'), 0)

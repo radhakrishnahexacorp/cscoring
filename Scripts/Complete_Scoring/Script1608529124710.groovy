@@ -25,3 +25,5 @@ WebUI.callTestCase(findTestCase('Add_New_Player'), [:], FailureHandling.STOP_ON_
 
 WebUI.callTestCase(findTestCase('Replace_With_Newplayer'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('End innings button'), [:], FailureHandling.STOP_ON_FAILURE)
+

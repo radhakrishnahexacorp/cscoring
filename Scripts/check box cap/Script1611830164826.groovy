@@ -16,20 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Wicket button selected'
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.Button - Wicket'), 0)
+Mobile.startApplication('C:\\Users\\smanikandan\\Downloads\\Scoring_app_qa_remove_umpire_approval_v2.0.0.apk', true)
 
-'Wicket type bowled'
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.TextView - Bowled'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/captain select check/android.widget.CheckBox'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.ImageView'), 0)
-
-'New batsmen selected'
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.Button - Select New Batsman'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.CheckBox'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Scoring Runs and Extras/scoring wickets/android.widget.LinearLayout'), 0)
+Mobile.closeApplication()
 
